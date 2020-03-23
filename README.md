@@ -1,2 +1,0 @@
-# Python
-Sandbox for Python
