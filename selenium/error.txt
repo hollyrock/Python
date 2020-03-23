@@ -1,0 +1,61 @@
+PS C:\Users\horoiwa.AUTH\iCloudDrive\MAKE\Code\Python\selenium> & C:/Users/horoiwa.AUTH/AppData/Local/Programs/Python/Python37-32/python.exe c:/Users/horoiwa.AUTH/iCloudDrive/MAKE/Code/Python/selenium/AutoCDAX.py
+
+DevTools listening on ws://127.0.0.1:64170/devtools/browser/b9adc709-e0a6-4a46-ab9d-2f3ca78d2b4c
+['5029549558']
+Traceback (most recent call last):
+  File "c:/Users/horoiwa.AUTH/iCloudDrive/MAKE/Code/Python/selenium/AutoCDAX.py", line 32, in <module>
+    userID[0].send_keys("5029549558")
+IndexError: list index out of range
+PS C:\Users\horoiwa.AUTH\iCloudDrive\MAKE\Code\Python\selenium> & C:/Users/horoiwa.AUTH/AppData/Local/Programs/Python/Python37-32/python.exe c:/Users/horoiwa.AUTH/iCloudDrive/MAKE/Code/Python/selenium/AutoCDAX.py
+
+DevTools listening on ws://127.0.0.1:64489/devtools/browser/435e686e-3467-4fa9-b2fe-14593862dcd6
+['5029549558']
+Traceback (most recent call last):
+  File "c:/Users/horoiwa.AUTH/iCloudDrive/MAKE/Code/Python/selenium/AutoCDAX.py", line 31, in <module>
+    userID = driver.find_element_by_xpath("//*[@id='caseIdtxtid']")
+  File "C:\Users\horoiwa.AUTH\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\horoiwa.AUTH\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\horoiwa.AUTH\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\horoiwa.AUTH\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='caseIdtxtid']"}
+  (Session info: chrome=77.0.3865.75)
+
+PS C:\Users\horoiwa.AUTH\iCloudDrive\MAKE\Code\Python\selenium> & C:/Users/horoiwa.AUTH/AppData/Local/Programs/Python/Python37-32/python.exe c:/Users/horoiwa.AUTH/iCloudDrive/MAKE/Code/Python/selenium/AutoCDAX.py
+
+DevTools listening on ws://127.0.0.1:61286/devtools/browser/0c2baca8-5c64-41b2-a1a1-174847a755c6
+['5029549558']
+Traceback (most recent call last):
+  File "c:/Users/horoiwa.AUTH/iCloudDrive/MAKE/Code/Python/selenium/AutoCDAX.py", line 31, in <module>
+    userID = driver.find_element_by_xpath("/html/body/div[27]/div[1]/div[1]/div[2]/div/div[1]/div[3]/div[2]/div/div[2]/input")
+  File "C:\Users\horoiwa.AUTH\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\horoiwa.AUTH\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\horoiwa.AUTH\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\horoiwa.AUTH\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[27]/div[1]/div[1]/div[2]/div/div[1]/div[3]/div[2]/div/div[2]/input"}
+  (Session info: chrome=77.0.3865.75)
+
+PS C:\Users\horoiwa.AUTH\iCloudDrive\MAKE\Code\Python\selenium> & C:/Users/horoiwa.AUTH/AppData/Local/Programs/Python/Python37-32/python.exe c:/Users/horoiwa.AUTH/iCloudDrive/MAKE/Code/Python/selenium/AutoCDAX.py
+
+DevTools listening on ws://127.0.0.1:63009/devtools/browser/8f8434c3-1a3f-4362-9b8b-461da4c8b3e8
+['5029549558']
+Traceback (most recent call last):
+  File "c:/Users/horoiwa.AUTH/iCloudDrive/MAKE/Code/Python/selenium/AutoCDAX.py", line 31, in <module>
+    userID = driver.find_element_by_xpath("//*[@id='caseIdtxtid']")
+  File "C:\Users\horoiwa.AUTH\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\horoiwa.AUTH\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\horoiwa.AUTH\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\horoiwa.AUTH\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='caseIdtxtid']"}
+  (Session info: chrome=77.0.3865.75)

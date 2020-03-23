@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 import MeCab
 
-fi = open("original.txt",'r').read()
-fo = open("analyzed.txt",'w')
+fi = open("textmining/original.txt",'r').read()
+fo = open("textmining/analyzed.txt",'w')
 
 m = MeCab.Tagger('-d /usr/local/lib/mecab/dic/mecab-ipadic-neologd')
 keyword = m.parse(fi)
