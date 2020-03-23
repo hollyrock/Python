@@ -4,6 +4,9 @@
 #
 # Run : python hdt11.py
 #
+# This code need Adafuruit_DHT library. Get the library with below command.
+# git clone https://github.com/adafruit/Adafruit_Pyt
+#
 
 
 import sys
